@@ -11,7 +11,7 @@ public class obd_JDBC_5 {
 			String url = "jdbc:oracle:thin:@ora3.elka.pw.edu.pl:1521:ora3inf";
 			String user = "iseredyn";
 			String password = "iseredyn";
-			String sql1 = "INSERT INTO ISEREDYN.DZIALYIS (NR_DZIALU,NAZWA_DZIALU,SIEDZIBA) VALUES (33,'ACCOUNTING','UL.MAJA 2')";  //wstawianie danych  inna skladnia niz w v4
+			String sql1 = "INSERT INTO DZIALYIS (NR_DZIALU,NAZWA_DZIALU,SIEDZIBA) VALUES (33,'ACCOUNTING','UL.MAJA 2')";  //wstawianie danych  inna skladnia niz w v4
 			//String sql1 = ("UPDATE dzialyIS SET nr_dzialu = 10 WHERE nr_dzialu = 1");  //edycja rekordu
 			//String sql1 = ("DELETE FROM dzialyIS  WHERE nr_dzialu = 15");  //kasoweanie rekordu
 			//String sql1 = "SELECT nr_dzialu, nazwa_dzialu,siedziba FROM dzialyIS";  //zapuszczanie SELECT 
